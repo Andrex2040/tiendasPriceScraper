@@ -38,7 +38,7 @@ class Exito(Spider):
             item = ItemLoader(Producto(), producto)
             item.add_xpath('descripcion', 'hola')
             item.add_xpath('precio', 'hola')
-            item.add_xpath('nombre', './/div[@ class ="vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--product-info-container"]//div//div[@ class ="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--product-info pb0"]//div//div//div[@ class ="pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex"]//div[@ class ="vtex-product-summary-2-x-productBrandContainer"]//span[@class="vtex-product-summary-2-x-productBrandName"]//text()')
+            item.add_value('nombre', './/div[@ class ="vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--product-info-container"]//div//div[@ class ="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--product-info pb0"]//div//div//div[@ class ="pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex"]//div[@ class ="vtex-product-summary-2-x-productBrandContainer"]//span[@class="vtex-product-summary-2-x-productBrandName"]//text()')
             #item.add_xpath('nombre', './/div[@class="vtex-product-summary-2-x-productBrandContainer"]//text()')
             #item.add_xpath('nombre',
                           # './/div[@class="vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--product-info-container"]//div//div//div//div//div//div//div[@class="vtex-product-summary-2-x-productBrandContainer"]//text()')
