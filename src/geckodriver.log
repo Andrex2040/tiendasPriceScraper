@@ -12089,3 +12089,69 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1681350853997	geckodriver	INFO	Listening on 127.0.0.1:57969
+1681350854007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "52315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilera11W7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681350854673	Marionette	INFO	Marionette enabled
+1681350854681	Marionette	INFO	Listening on port 45435
+Read port: 45435
+WebDriver BiDi listening on ws://127.0.0.1:52315
+1681350854880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilera11W7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52315/devtools/browser/bbac9e09-7842-41a7-b589-dc85fee15ef2
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=aspletorjan2023, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WL3VZDV line 3 > eval, line 1: TypeError: a is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Bo5p8DbEpWqq_61_uCYPeBu7T3aczz0WnYolkwB_A5I.js line 2 > eval line 5575 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=aspletorjan2023, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Bo5p8DbEpWqq_61_uCYPeBu7T3aczz0WnYolkwB_A5I.js line 2 > eval line 403 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=aspletorjan2023, line 2: Error: GraphQL error: Request failed with status code 400
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1681351066185	geckodriver	INFO	Listening on 127.0.0.1:35993
+1681351066196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "43981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemeJsxD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681351066878	Marionette	INFO	Marionette enabled
+1681351066886	Marionette	INFO	Listening on port 45757
+Read port: 45757
+WebDriver BiDi listening on ws://127.0.0.1:43981
+1681351067078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemeJsxD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43981/devtools/browser/25fe89b0-d310-46f5-a6a9-121ccbcaf448
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WL3VZDV line 3 > eval, line 1: TypeError: a is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Bo5p8DbEpWqq_61_uCYPeBu7T3aczz0WnYolkwB_A5I.js line 2 > eval line 6718 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Bo5p8DbEpWqq_61_uCYPeBu7T3aczz0WnYolkwB_A5I.js line 2 > eval line 2764 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

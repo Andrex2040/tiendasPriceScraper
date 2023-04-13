@@ -7,6 +7,7 @@ import platform
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -15,17 +16,23 @@ from selenium.webdriver.support import expected_conditions as EC
 # Inicializar el contador que servira como id de registro
 contador = 1
 
-def get_driver():    
+def get_driver():
+    print('-> Ejecutando en Plataforma: ' + platform.system())
+    print('Espere unos segundos mientras inicia el Navegador y comienza el escaneo ...')
+
+    options = FirefoxOptions()
+    options.add_argument("--headless")  # Ejecutar en segundo plano
+
     if platform.system() == 'Windows':
         service = FirefoxService(executable_path='./geckodriver.exe')
-        return webdriver.Firefox(service=service)
+        return webdriver.Firefox(service=service, options=options)
     elif platform.system() == 'Linux':
         service = FirefoxService(executable_path='./geckodriver_0.32.2_ubuntu')
-        return webdriver.Firefox(service=service)
+        return webdriver.Firefox(service=service, options=options)
     else: # macOS
         service = FirefoxService(executable_path='./geckodriver_mac')
-        return webdriver.Firefox(service=service)
-    print('-> Ejecutando en Plataforma: ' + platform.system())
+        return webdriver.Firefox(service=service, options=options)
+    
 
 def click_mostrar_mas(driver):
     boton = driver.find_element(By.XPATH, '//div[@class="vtex-button__label flex items-center justify-center h-100 ph5 "]')
