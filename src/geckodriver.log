@@ -12155,3 +12155,296 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1681352496622	geckodriver	INFO	Listening on 127.0.0.1:52255
+1681352496634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUHBwk6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681352497951	Marionette	INFO	Marionette enabled
+1681352497959	Marionette	INFO	Listening on port 41501
+Read port: 41501
+WebDriver BiDi listening on ws://127.0.0.1:38219
+1681352498166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUHBwk6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38219/devtools/browser/93c23a38-9a69-406a-bd2f-883f4a522192
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+1681352513042	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681352787034	Marionette	INFO	Stopped listening on port 41501
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1681352976032	geckodriver	INFO	Listening on 127.0.0.1:36153
+1681352976042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37429" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevyQ5qC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681352977444	Marionette	INFO	Marionette enabled
+1681352977454	Marionette	INFO	Listening on port 45269
+Read port: 45269
+WebDriver BiDi listening on ws://127.0.0.1:37429
+1681352977674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevyQ5qC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37429/devtools/browser/ef664332-def4-486a-9d88-9019375af29d
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+1681352988879	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681353180761	Marionette	INFO	Stopped listening on port 45269
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1681353291303	geckodriver	INFO	Listening on 127.0.0.1:55205
+1681353291319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileALdHb2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681353292735	Marionette	INFO	Marionette enabled
+1681353292744	Marionette	INFO	Listening on port 36875
+Read port: 36875
+WebDriver BiDi listening on ws://127.0.0.1:52645
+1681353292983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileALdHb2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52645/devtools/browser/1a1f41fb-249d-426e-9281-9db5a2e35a70
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681353459175	Marionette	INFO	Stopped listening on port 36875
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1681353486004	geckodriver	INFO	Listening on 127.0.0.1:42653
+1681353486014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41637" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8wAhFI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681353487311	Marionette	INFO	Marionette enabled
+1681353487319	Marionette	INFO	Listening on port 41953
+Read port: 41953
+WebDriver BiDi listening on ws://127.0.0.1:41637
+1681353487528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8wAhFI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41637/devtools/browser/3aeb0cb8-1323-4964-a99d-47a7029df7b8
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 553 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1681353623887	geckodriver	INFO	Listening on 127.0.0.1:42931
+1681353623897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60873" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYYdbAQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681353625223	Marionette	INFO	Marionette enabled
+1681353625231	Marionette	INFO	Listening on port 35123
+Read port: 35123
+WebDriver BiDi listening on ws://127.0.0.1:60873
+1681353625439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYYdbAQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60873/devtools/browser/e64ce132-3a06-4bd7-808b-3f10538abf48
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1681354395111	geckodriver	INFO	Listening on 127.0.0.1:51993
+1681354395121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilene2BYh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681354395802	Marionette	INFO	Marionette enabled
+1681354395810	Marionette	INFO	Listening on port 38359
+Read port: 38359
+WebDriver BiDi listening on ws://127.0.0.1:43007
+1681354396016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilene2BYh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43007/devtools/browser/fbec9580-00a7-4338-9294-f0ba48cdca94
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681354409827	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1681354501257	geckodriver	INFO	Listening on 127.0.0.1:46119
+1681354501268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezyw457"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681354502674	Marionette	INFO	Marionette enabled
+1681354502682	Marionette	INFO	Listening on port 34881
+Read port: 34881
+WebDriver BiDi listening on ws://127.0.0.1:49781
+1681354502887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezyw457/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49781/devtools/browser/c780f1f1-4aa9-4712-bcc0-4e7839524543
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681354702128	Marionette	INFO	Stopped listening on port 34881
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1681356110002	geckodriver	INFO	Listening on 127.0.0.1:52009
+1681356110512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45851" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJkTtrR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681356111850	Marionette	INFO	Marionette enabled
+1681356111858	Marionette	INFO	Listening on port 32973
+Read port: 32973
+WebDriver BiDi listening on ws://127.0.0.1:45851
+1681356112087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJkTtrR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45851/devtools/browser/287eb510-5f8f-4d52-bb3c-445b0875623c
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+1681356123392	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681356216427	Marionette	INFO	Stopped listening on port 32973
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1681356399641	geckodriver	INFO	Listening on 127.0.0.1:34309
+1681356399652	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuyf9Gs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681356400962	Marionette	INFO	Marionette enabled
+1681356400970	Marionette	INFO	Listening on port 35989
+Read port: 35989
+WebDriver BiDi listening on ws://127.0.0.1:54087
+1681356401176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuyf9Gs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54087/devtools/browser/6142af1c-f74b-4c41-9ebb-012e084c205b
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681356649161	geckodriver	INFO	Listening on 127.0.0.1:38251
+1681356649173	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePr4YFX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681356650545	Marionette	INFO	Marionette enabled
+1681356650553	Marionette	INFO	Listening on port 35059
+Read port: 35059
+WebDriver BiDi listening on ws://127.0.0.1:55155
+1681356650768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePr4YFX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55155/devtools/browser/07ecf434-9b1f-48ad-b9b6-d1dd48103736
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+1681356662741	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681356711487	geckodriver	INFO	Listening on 127.0.0.1:51935
+1681356711496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2QHrxm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681356712909	Marionette	INFO	Marionette enabled
+1681356712917	Marionette	INFO	Listening on port 35853
+Read port: 35853
+WebDriver BiDi listening on ws://127.0.0.1:45047
+1681356713157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2QHrxm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45047/devtools/browser/42f9de2a-be96-416e-984f-54f7c1f9472a
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+1681356775934	geckodriver	INFO	Listening on 127.0.0.1:50483
+1681356775943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileylEjer"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681356777426	Marionette	INFO	Marionette enabled
+1681356777435	Marionette	INFO	Listening on port 40127
+Read port: 40127
+WebDriver BiDi listening on ws://127.0.0.1:51021
+1681356777696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileylEjer/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51021/devtools/browser/b9aaf8bf-a05f-4bbf-bee6-8df074f1a6a1
+JavaScript error: https://www.tiendasjumbo.co/licor?_q=licor&map=ft line 551 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://api.retargetly.com/loader?id=2144, line 1: SyntaxError: redeclaration of let byteToHex
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: License expired
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript error: https://jumbocolombiaio.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.2,index&files=vtex.sae-analytics@2.10.0,index&files=tiendasjumboqaio.cencosud-google-tag-manager@0.1.1,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=tiendasjumboqaio.jumbo-main-menu@2.0.1,common,0,MainMenu&files=tiendasjumboqaio.jumbo-general-apps@2.1.26,MetaTags,PrimeUserDetector&files=vtex.store-components@3.167.0,BackToTopButton&async=2&workspace=master, line 16: TypeError: i is undefined
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

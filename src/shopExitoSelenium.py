@@ -18,7 +18,7 @@ contador = 1
 
 def get_driver():
     print('-> Ejecutando en Plataforma: ' + platform.system())
-    print('Espere unos segundos mientras inicia el Navegador y comienza el escaneo ...')
+    print('[Exito] Espere unos segundos mientras inicia el Navegador y comienza el escaneo ...')
 
     options = FirefoxOptions()
     options.add_argument("--headless")  # Ejecutar en segundo plano
