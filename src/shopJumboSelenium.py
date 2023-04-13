@@ -8,7 +8,8 @@ import time
 import csv
 
 # xattr -d com.apple.quarantine chromedriver - activar driver en mac
-driver = webdriver.Firefox(executable_path='./geckodriver')
+# driver = webdriver.Firefox(executable_path='./geckodriver')
+driver = webdriver.Firefox(executable_path='./geckodriver_0.32.2_ubuntu')
 
 driver.get('https://www.tiendasjumbo.co/licor?_q=licor&map=ft')
 wait = WebDriverWait(driver, 1) # espera explícita de 10 segundos
