@@ -12674,3 +12674,225 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1681435088301	Marionette	INFO	Stopped listening on port 62338
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681769496213	geckodriver	INFO	Listening on 127.0.0.1:59002
+1681769496554	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" "--remote-debugging-port" "59003" "-foreground" "-no-remote" "-profile" "/var/folders/b4/41h6j7px379_f3m9cxf36879chh60t/T/rust_mozprofileyceJDL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681769497599	Marionette	INFO	Marionette enabled
+1681769498036	Marionette	INFO	Listening on port 59012
+WebDriver BiDi listening on ws://127.0.0.1:59003
+1681769498241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b4/41h6j7px379_f3m9cxf36879chh60t/T/rust_mozprofileyceJDL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59003/devtools/browser/2de74c2a-238b-4d8c-b653-d4483df91fa1
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WL3VZDV line 3 > eval, line 1: TypeError: a is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1373 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 6540 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1554 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 2012 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1352 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 9 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1120 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 3066 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1797 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 7305 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1354 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1830 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 370 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 935 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 5125 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 6974 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1474 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 256 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 2745 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 7554 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 2022 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4950 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4016 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 5025 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4632 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 2401 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4555 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 6561 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4782 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 6212 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 2132 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 2546 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/bundle/public/react/asset.min.js?v=1&files=vtex.render-runtime@8.132.4,ExtensionContainer&files=vtex.admin-pages@4.50.0,common,6,18,HighlightOverlay&files=vtex.request-capture@2.2.5-beta.0,index&files=exito.pixels@0.0.6,index&files=vtex.facebook-fbe@1.7.3,common,1,FbePixel&files=vtex.sae-analytics@2.10.0,index&files=braindw.braindw-io@0.8.29,common,0,index&files=vtex.google-tag-manager@2.10.0,index&files=vtex.react-vtexid@4.53.0,common,AuthServiceLazy,AuthStateLazy,getAbsReturnUrl,1&async=2&workspace=master, line 18: Error: Network Error
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 6689 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 7656 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4370 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 3464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 1216 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4165 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://exitocol.vtexassets.com/_v/public/assets/v1/published/vtex.render-runtime@8.132.4/public/react/apollo.min.js?async=2&workspace=master, line 2: Error: GraphQL error: Request failed with status code 400
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sT94e_Y9T67XXT_Bc0Lekmp70Liu2pVFNITCmIvtqgQ.js line 2 > eval line 4661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681773498348	Marionette	INFO	Stopped listening on port 59012
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
