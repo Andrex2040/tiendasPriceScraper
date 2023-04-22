@@ -16,15 +16,22 @@ from selenium.webdriver.support import expected_conditions as EC
 # Inicializar el contador que servira como id de registro
 contador = 1
 
-def get_driver():
+def random_sleep(min_sec=3, max_sec=10):
+    sleep(random.uniform(min_sec, max_sec))
+
+def set_random_user_agent(driver):
+    profile = webdriver.FirefoxProfile()
+    random_user_agent = get_random_user_agent()
+    profile.set_preference("general.useragent.override", random_user_agent)
+    driver.profile = profile    
+
+def get_driver(user_agent):
     print('-> Ejecutando en Plataforma: ' + platform.system())
     print('[Exito] Espere unos segundos mientras inicia el Navegador y comienza el escaneo ...')
 
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-
     options = FirefoxOptions()
-    options.add_argument("--headless")  # Ejecutar en segundo plano
-    options.add_argument(f'user-agent={user_agent}')
+    #options.add_argument("--headless")  # Ejecutar en segundo plano
+    options.add_argument(f'user-agent={user_agent}')  # Agregar el user agent
 
     if platform.system() == 'Windows':
         service = FirefoxService(executable_path='./geckodriver.exe')
@@ -36,22 +43,25 @@ def get_driver():
         service = FirefoxService(executable_path='./geckodriver_mac')
         return webdriver.Firefox(service=service, options=options)
     
+def get_user_agents():
+    return [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0',
+        'Mozilla/5.0 (X11; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0',        
+    ]
 
-def click_mostrar_mas(driver):
-    boton = driver.find_element(By.XPATH, '//div[@class="vtex-button__label flex items-center justify-center h-100 ph5 "]')
-    cerrarModal = driver.find_element(By.XPATH, '//span[@class="exito-geolocation-3-x-cursorPointer"]')
-    cerrarModal.click()
+def get_random_user_agent():
+    user_agents = get_user_agents()
+    return random.choice(user_agents)
 
-    for i in range(40):
-        try:
-            boton.click()
-            time.sleep(random.uniform(10.0, 20.0))
-            boton = driver.find_element(By.XPATH, '//div[@class="vtex-button__label flex items-center justify-center h-100 ph5 "]')
-            cerrarModal = driver.find_element(By.XPATH, '//span[@class="exito-geolocation-3-x-cursorPointer"]')
-            cerrarModal.click()
-        except Exception as e:
-            print("hubo un error: " + str(e))
-            break
+def update_user_agent(driver):
+    random_user_agent = get_random_user_agent()
+    driver.execute_script(f"Object.defineProperty(navigator, 'userAgent', {{get: function () {{return '{random_user_agent}';}},}});")
 
 def scrape_productos(driver):
     wait = WebDriverWait(driver, 1)
@@ -68,7 +78,7 @@ def guardar_productos(productos):
     fecha_scraping = datetime.now().strftime('%Y-%m-%d %H:%M:%S')    
     for producto in productos:
         print(contador)
-        nombre = WebDriverWait(producto, 20).until(
+        nombre = WebDriverWait(producto, 1).until(
             EC.presence_of_element_located((By.XPATH,
                                             '//div[@ class ="vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--product-info-container"]//div//div[@ class ="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--product-info pb0"]//div//div//div[@ class ="pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex"]//div[@ class ="vtex-product-summary-2-x-productBrandContainer"]//span[@class="vtex-product-summary-2-x-productBrandName"]'))
         )
@@ -104,8 +114,7 @@ def guardar_productos(productos):
         contador += 1
 
 def main():
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-    driver = get_driver()
+    driver = get_driver(get_random_user_agent())
     base_url = "https://www.exito.com/licores?_q=licores&map=ft&page="
 
     with open('productosExito.csv', mode='w', encoding='utf-8') as file:
@@ -113,14 +122,14 @@ def main():
         writer.writerow(['Id', 'Nombre', 'Descripcion', 'Mililitros', 'Precio', 'Descuento', 'PrecioConDescuento', 'FechaHoraScraping'])
 
     for page in range(1, 41):
+        set_random_user_agent(driver)
         driver.get(base_url + str(page))
         # Tiempo de espera para carga pagina
-        time.sleep(30)
+        time.sleep(60)
         productos = scrape_productos(driver)
         guardar_productos(productos)
 
     driver.quit()
-
 
 if __name__ == "__main__":
     main()
