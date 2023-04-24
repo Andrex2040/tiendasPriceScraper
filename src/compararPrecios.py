@@ -5,13 +5,15 @@ import difflib
 df1 = pd.read_csv('productosJumbo.csv')
 df2 = pd.read_csv('productosExito.csv')
 
+print("Iniciando proceso")
+
 # Crear una columna en cada dataframe que contenga las palabras a comparar
 df1['palabras'] = df1['Descripcion'].str.lower().str.split()
 df2['palabras'] = df2['Descripcion'].str.lower().str.split()
 
 # Crear un nuevo dataframe para almacenar los resultados de la comparación
 # Crear un nuevo dataframe para almacenar los resultados de la comparación
-resultados = pd.DataFrame(columns=['Descripcion', 'Mililitros', 'Precio', 'Descuento', 'PrecioConDescuento'])
+resultados = pd.DataFrame(columns=[])
 
 # Iterar a través de cada fila en el primer dataframe
 for index1, row1 in df1.iterrows():
@@ -25,32 +27,37 @@ for index1, row1 in df1.iterrows():
         # Si hay una coincidencia cercana, guardar las filas correspondientes en el nuevo dataframe
         if len(matches) > 0:
             resultado_dict = {}
-            resultado_dict['Descripcion'] = row1['Descripcion']
-            resultado_dict['Mililitros'] = row1['Mililitros']
-            resultado_dict['Precio'] = row1['Precio']
-            resultado_dict['Descuento'] = row1['Descuento']
-            resultado_dict['PrecioConDescuento'] = row1['PrecioConDescuento']
-            resultado_dict['Descripcion2'] = row2['Descripcion']
-            resultado_dict['Mililitros2'] = row2['Mililitros']
-            resultado_dict['Precio2'] = row2['Precio']
-            resultado_dict['Descuento2'] = row2['Descuento']
-            resultado_dict['PrecioConDescuento2'] = row2['PrecioConDescuento']
+            resultado_dict['Descripcion_Jumbo'] = row1['Descripcion']
+            resultado_dict['Mililitros_Jumbo'] = row1['Mililitros']
+            resultado_dict['Precio_Jumbo'] = row1['Precio']
+            resultado_dict['Descuento_Jumbo'] = row1['Descuento']
+            resultado_dict['PrecioConDescuento_Jumbo'] = row1['PrecioConDescuento']
+            resultado_dict['FechaHoraScraping_Jumbo'] = row1['FechaHoraScraping']
+            resultado_dict['Descripcion_Exito'] = row2['Descripcion']
+            resultado_dict['Mililitros_Exito'] = row2['Mililitros']
+            resultado_dict['Precio_Exito'] = row2['Precio']
+            resultado_dict['Descuento_Exito'] = row2['Descuento']
+            resultado_dict['PrecioConDescuento_Exito'] = row2['PrecioConDescuento']
+            resultado_dict['FechaHoraScraping_Exito'] = row2['FechaHoraScraping']
             # Agregar el diccionario al dataframe de resultados
             resultados = resultados._append({
-                                 'NombreJumbo': row1['Nombre'],
-                                 'Descripcion': row1['Descripcion'],
-                                 'Mililitros': row1['Mililitros'],
-                                 'Precio': row1['Precio'],
-                                 'Descuento': row1['Descuento'],
-                                 'PrecioConDescuento': row1['PrecioConDescuento'],
-                                'Nombre2': row2['Nombre'],
-                                'Descripcion2': row2['Descripcion'],
-                                'Mililitros2': row2['Mililitros'],
-                                'Precio2': row2['Precio'],
-                                'Descuento2': row2['Descuento'],
-                                'PrecioConDescuento2': row2['PrecioConDescuento'],
-                                 'archivo1': index1,
-                                 'archivo2': index2}, ignore_index=True)
+                                'NombreJumbo_Jumbo': row1['Nombre'],
+                                'Descripcion_Jumbo': row1['Descripcion'],
+                                'Mililitros_Jumbo': row1['Mililitros'],
+                                'Precio_Jumbo': row1['Precio'],
+                                'Descuento_Jumbo': row1['Descuento'],
+                                'PrecioConDescuento_Jumbo': row1['PrecioConDescuento'],
+                                'FechaHoraScraping_Jumbo': row1['FechaHoraScraping'],
+                                'Nombre_Exito': row2['Nombre'],
+                                'Descripcion_Exito': row2['Descripcion'],
+                                'Mililitros_Exito': row2['Mililitros'],
+                                'Precio_Exito': row2['Precio'],
+                                'Descuento_Exito': row2['Descuento'],
+                                'PrecioConDescuento_Exito': row2['PrecioConDescuento'],
+                                'FechaHoraScraping_Exito': row1['FechaHoraScraping']
+            }, ignore_index=True)
 
 # Guardar los resultados en un archivo CSV
 resultados.to_csv('comparativoDePrecios.csv')
+
+print("Proceso finalizado")

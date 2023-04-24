@@ -94,7 +94,7 @@ def guardar_productos(productos):
         mililitros = " ".join(ultimas_dos[-2:])
 
         # Escribir la información en el archivo CSV
-        with open('productosExito.csv', mode='a', encoding='utf-8') as file:
+        with open('../dataset/productosExito.csv', mode='a', encoding='utf-8') as file:
             writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             writer.writerow([contador, productosSplit[0], productosSplit[1], mililitros, precio, descuento, precioDescuento, fecha_scraping])
 
@@ -108,7 +108,7 @@ def main():
     driver = get_driver()
     base_url = "https://www.exito.com/licores?_q=licores&map=ft&page="
 
-    with open('productosExito.csv', mode='w', encoding='utf-8') as file:
+    with open('../dataset/productosExito.csv', mode='w', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(['Id', 'Nombre', 'Descripcion', 'Mililitros', 'Precio', 'Descuento', 'PrecioConDescuento', 'FechaHoraScraping'])
 

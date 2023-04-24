@@ -91,7 +91,7 @@ def guardar_productos(productos, driver):
                 contador_split += 1
 
                 # Escribir la información en el archivo CSV
-                with open('productosJumbo.csv', mode='a', encoding='utf-8') as file:
+                with open('../dataset/productosJumbo.csv', mode='a', encoding='utf-8') as file:
                     writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                     writer.writerow([contador, nombre_producto, descripcion, mililitros, precio, descuento, precio_descuento, fecha_scraping])
 
@@ -112,7 +112,7 @@ def main():
     driver.get(base_url)
 
     # Agregar encabezado
-    with open('productosJumbo.csv', mode='w', encoding='utf-8') as file:
+    with open('../dataset/productosJumbo.csv', mode='w', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(['Id', 'Nombre', 'Descripcion', 'Mililitros', 'Precio', 'Descuento', 'PrecioConDescuento', 'FechaHoraScraping'])
 
