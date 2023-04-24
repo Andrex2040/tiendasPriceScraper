@@ -12,15 +12,17 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-def get_driver():
+
+def random_sleep(min_sec=3, max_sec=10):
+    sleep(random.uniform(min_sec, max_sec))
+
+def get_driver(user_agent):
     print('-> Ejecutando en Plataforma: ' + platform.system())
     print('[Jumbo] Espere unos segundos mientras inicia el Navegador y comienza el escaneo ...')
 
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-
     options = FirefoxOptions()
-    options.add_argument("--headless")  # Ejecutar en segundo plano
-    options.add_argument(f'user-agent={user_agent}')
+    #options.add_argument("--headless")  # Ejecutar en segundo plano
+    options.add_argument(f'user-agent={user_agent}')  # Agregar el user agent
 
     if platform.system() == 'Windows':
         service = FirefoxService(executable_path='./geckodriver.exe')
@@ -32,19 +34,43 @@ def get_driver():
         service = FirefoxService(executable_path='./geckodriver_mac')
         return webdriver.Firefox(service=service, options=options)
 
+
+def get_user_agents():
+    return [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0',
+        'Mozilla/5.0 (X11; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0',        
+    ]
+
+def get_random_user_agent():
+    user_agents = get_user_agents()
+    return random.choice(user_agents)
+
+def update_user_agent(driver):
+    random_user_agent = get_random_user_agent()
+    driver.execute_script(f"Object.defineProperty(navigator, 'userAgent', {{get: function () {{return '{random_user_agent}';}},}});")
+
+
 def scrape_productos(driver):
-    wait = WebDriverWait(driver, 1)
+    wait = WebDriverWait(driver, 60)
     productos = wait.until(EC.presence_of_all_elements_located((By.XPATH, '//div[@id="gallery-layout-container"]')))
     return productos
 
-def guardar_productos(productos, driver):
+def guardar_productos(driver):
     posicion = 2
     contador = 1
     fecha_scraping = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     while True:
-        for i in range(10):
+        for i in range(4):
             driver.execute_script("window.scrollBy(0, 500);")
-            sleep(1)
+            random_sleep(18, 30)
+
+        productos = scrape_productos(driver)
 
         for producto in productos:
             productos_split = producto.text.split("Comparar")
@@ -98,7 +124,7 @@ def guardar_productos(productos, driver):
                 contador += 1
 
         try:
-            boton_pagina = driver.find_element(By.XPATH, '//li[@class="inline-flex h-100 relative overflow-hidden"][' + str(posicion) + ']')
+            boton_pagina = driver.find_element(By.XPATH, '//li[@class="inline-flex h-100 relative overflow-hidden"][' + str(posicion) + ']')           
             boton_pagina.click()
             posicion += 1
         except:
@@ -107,20 +133,34 @@ def guardar_productos(productos, driver):
         print('pagina ? ' + str(posicion))    
 
 def main():
-    driver = get_driver()
     base_url = "https://www.tiendasjumbo.co/licor?_q=licor&map=ft"
-    driver.get(base_url)
 
     # Agregar encabezado
     with open('../dataset/productosJumbo.csv', mode='w', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(['Id', 'Nombre', 'Descripcion', 'Mililitros', 'Precio', 'Descuento', 'PrecioConDescuento', 'FechaHoraScraping'])
 
-    productos = scrape_productos(driver)
+    # Crear un controlador con un user agent aleatorio y cargar la primera página
+    driver = get_driver(get_random_user_agent())
+    driver.get(base_url)    
 
-    guardar_productos(productos, driver)
-
+    guardar_productos(driver)
+    
     driver.quit()
+
+    posicion = 2
+    while True:
+        # Crear un nuevo controlador con un user agent aleatorio y cargar la siguiente página
+        driver = get_driver(get_random_user_agent())
+        driver.get(f"{base_url}&page={posicion}")
+        
+        guardar_productos(driver)
+        
+        driver.quit()
+
+        # Incrementar la posición para la siguiente página
+        posicion += 1
+
 
 if __name__ == "__main__":
     main()
