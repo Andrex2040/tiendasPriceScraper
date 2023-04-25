@@ -14,6 +14,10 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7859422.svg)](https://doi.org/10.5281/zenodo.7859422)
 
+# PDF de entrega
+
+[Documento memoria PDF](Practica1.pdf)
+
 # Comparador de Precios de Supermercados con Selenium y Python
 
 Este proyecto, desarrollado en Python utilizando la biblioteca Selenium, tiene como objetivo facilitar la comparación de precios en dos supermercados distintos para una categoría específica de productos. Mediante técnicas de web scraping, el programa identifica y extrae los precios de los productos en ambas tiendas, almacenándolos en un archivo de texto plano para su posterior análisis.
